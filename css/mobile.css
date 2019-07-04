@@ -1,0 +1,96 @@
+html,
+body {
+    height: 100%;
+    font-family: 'FuturaPTBook', 'Fascinate', cursive;
+    width: 100%;
+}
+nav a {
+    color:white
+}
+.container {
+    min-width: 100%;
+    height: auto;
+}
+h2,
+h4 {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+/* navbar logo */
+.logo {
+    width: 15px;
+    height: 13px;
+    margin-left: auto;
+    margin-right: auto;
+}
+logotext {
+    color: white;
+}
+/* banner styling */
+.banner {
+    background: url('../img/bbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: #fff;
+}
+.bannertext{
+    margin-left: 2.5em;
+}
+.bannertext p {
+    font-size: 15px;
+}
+#button {
+    padding:0.7em;
+    border-radius: 5px;
+}
+#play {
+    color: #f5f5f5;
+}
+.space {
+    height: 1em;
+}
+
+/* features div */
+@media (max-width: 567px){
+.features,
+.features2 {
+    width: 100%;
+    height:100%
+}
+}
+.f1-text {
+    padding-top: 2em; 
+}
+.features,
+.features2 {
+    width: 100%;
+    height: 100%
+}
+/* dividing line */ 
+.divider {
+    height: 0px;
+    width: 85%;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+}
+.minicon {
+    width:20px;
+    height: 20px;    
+}
+
+.screen {
+    transform: scale(0.4);
+    width: 80%;
+    margin-left: 0;
+}
+/* blue div */
+.price {
+    background-color: #f4f4f4;    
+}
+.icon {
+    margin-left: 2em;
+}
